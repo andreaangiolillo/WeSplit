@@ -15,7 +15,6 @@ struct ContentView: View {
     @FocusState private var amountIsFocused : Bool
     
     private let currency = Locale.current.currency?.identifier ?? "USD"
-    private var c :FloatingPointFormatStyle<Double>.Currency = .currency(code: currency)
     
     let tipPercentages = [10, 15, 20, 25, 0]
     
